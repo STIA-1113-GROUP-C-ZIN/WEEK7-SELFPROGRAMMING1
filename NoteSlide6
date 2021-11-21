@@ -1,0 +1,32 @@
+package myWhile;
+
+public class NoteSlide6 {
+
+	public static void main(String[] args) {
+		
+		int i=1;
+		int j=10;
+		int k=20;
+		
+	    while (i<5){
+	      System.out.print(i + " ");
+	      i++;   
+	    }//end first while
+	    System.out.println();
+	    
+	    while(j<20) {
+	    	System.out.print(j + " ");
+	    	j++;
+	    }//end second while
+	    System.out.println();
+
+	    while(k>10) {
+	    	System.out.print(k + " ");
+	    	k--;
+	    }//end third while
+	    System.out.println();
+
+
+	}//end main
+
+}//end class
